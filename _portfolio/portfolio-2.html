@@ -1,7 +1,39 @@
 ---
-title: "Portfolio item number 2"
-excerpt: "Short description of portfolio item number 2 <br/><img src='/images/500x300.png'>"
+title: "Deep Learning-Driven Ovarian Cancer Subtyping"
+excerpt: "Short description of portfolio item number 2 <br/><img src='/images/saurabh/subtyping/main.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. Second Portfolio It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Ovarian cancer is a complex and heterogeneous disease, making diagnosis and treatment challenging.
+Traditional histopathology analysis has limitations due to subjectivity and inter-observer variability.
+This study presents the OvarianAttentionClassifier, a convolutional neural network (CNN) model with a spatial attention mechanism designed for 
+precise ovarian cancer subtyping from digital histopathology images. The research introduces novel class balancing techniques using stain 
+augmentation and normalization to enhance model robustness. The proposed model achieves an accuracy of 92%, precision of 0.9351, recall of 0.9357,
+F1 score of 0.9350, and AUC of 0.9906, significantly outperforming conventional diagnostic methods.
+<br><br>
+
+Key Contributions<br>
+
+
+--Development of OvarianAttentionClassifier: A CNN with spatial attention layers to capture morphological patterns for ovarian cancer subtyping.<br><br>
+    
+--Class Balancing Techniques: Introduces stain augmentation and normalization to improve dataset diversity and model performance.<br><br>
+    
+--Comprehensive Performance Evaluation: Achieves superior results compared to traditional and pre-trained deep learning models (ResNet18, ResNet50, ResNeXt).<br><br>   
+    
+--Dataset Enhancement: Augments the UBC-OCEAN dataset, balancing class distribution and increasing dataset size from 513 images to 56,755 images through augmentation.<br><br>
+    
+--Comparative Analysis: Demonstrates that the OvarianAttentionClassifier outperforms other state-of-the-art models, achieving higher classification accuracy.<br><br>
+
+
+Architecture Used: 
+
+<figure>
+  <img src="/images/saurabh/subtyping/augmentation.png" alt="augmentation" width="600">
+  <figcaption style="text-align: center;">Figure 1: Augmentation Architecture</figcaption>
+</figure>
+
+<figure>
+    <img src="/images/saurabh/subtyping/architecture.png" alt="architecture" width="600">
+    <figcaption style="text-align: center;">Figure 2: Model Architecture</figcaption>
+  </figure>
