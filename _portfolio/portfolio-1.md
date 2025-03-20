@@ -1,6 +1,6 @@
 ---
 title: "Hybrid Loss Functions in U-NET for Kidney Blood Vessel Segmentation in HiP-CT Images"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/saurabh/unet/portfolio1.png'>"
+excerpt: "Dr. Vijay H. Kalmani, Saurabh P. Nale <br/><img src='/images/saurabh/unet/portfolio1.png'>"
 collection: portfolio
 ---
 

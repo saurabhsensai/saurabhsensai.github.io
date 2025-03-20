@@ -1,6 +1,6 @@
 ---
 title: "ECG Classification for Atrial Fibrillation, Normal Sinus Rhythm, and Congestive Heart Failure"
-excerpt: "Short description of portfolio item number 3<br/><img src='/images/saurabh/ecg/main.png'>"
+excerpt: "Saurabh P. Nale, Pawan Kamble<br/><img src='/images/saurabh/ecg/main.png'>"
 collection: portfolio
 ---
 

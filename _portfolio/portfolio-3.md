@@ -1,6 +1,6 @@
 ---
 title: "Custom Object Detection with YOLOv7: Dataset Curation, Training, and Real-Time Deployment"
-excerpt: "Short description of portfolio item number 3<br/><img src='/images/saurabh/yolo/main.png'>"
+excerpt: "Saurabh P. Nale<br/><img src='/images/saurabh/yolo/main.png'>"
 collection: portfolio
 ---
 
