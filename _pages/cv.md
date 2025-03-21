@@ -11,21 +11,25 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Batchlors in Computer Science and Information Technology with Honors, Rajarambapu Institute of Technology, India, 2024
+* Diploma in Computer Engineering, Cusrow Wadia Institute of Technology, Pune, 2021
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Jan 2024 - Present: Data Scientist, Core AI
+  * Managing and analyzing medical data from the Alzheimer's Disease Neuroimaging Initiative (ADNI), including tabular records and 3D MRI scans.
+  * Preprocessing and refining data to uncover patterns for classifying different stages of Alzheimer's disease.
+  * Developing deep learning models and pipelines for efficient processing and integration of 3D imaging and tabular data. 
+  * Supervisor: Dr. Sidharth Pancholi
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Jan 2024-July 2024: Research Assistant 
+  * Rajarambapu Institute of Technology, India
+  * Collaborated with Dr. V. H. Kalmani on a research project focused on applying vision transformers for the segmentation
+of kidney blood vessels in HIP CT scans.
+  * Developed algorithms and scripts to generate 3D reconstructions of blood vessel networks from CT scan images, allowing
+for detailed anatomical study and quantitative analysis
+  * Developed a novel hybrid loss function for kidney blood vessel segmentation. Combined Log Cosh Dice loss and Binary
+    Cross Entropy. Achieved state-of-the-art performance with Dice coefficient of 0.9308.
 
 * Summer 2015: Research Assistant
   * GitHub University

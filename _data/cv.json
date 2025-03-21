@@ -3,7 +3,7 @@
     "name": "Saurabh Nale",
     "email": "saurabhnale9@gmail.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
+    "website": "https://saurabhsensai.github.io",
     "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
     "location": {
       "address": "",
@@ -16,46 +16,37 @@
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "#"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "#"
       },
       {
         "network": "GitHub",
         "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "url": "#"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "Rajarambapu Institute of Technology, India",
+      "area": "Batchlors in Computer Science and Information Technology with Honors",
       "studyType": "",
       "startDate": "",
-      "endDate": "2018",
+      "endDate": "2024",
       "gpa": null,
-      "courses": []
+      "courses": ["DATA STRUCTURES AND ALGORITHMS", "COMPUTER NETWORKS", "OBJECT ORIENTED DESIGN AND PROGRAMMING", "AUTOMATA THEORY", "MATHEMATICS FOR DATA ANALYTICS", "DATABASE MANAGEMENT SYSTEMS"]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "Cusrow Wadia Institute of Technology, Pune",
+      "area": "Diploma in Computer Engineering",
       "studyType": "",
       "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "endDate": "2021",
       "gpa": null,
       "courses": []
     }
