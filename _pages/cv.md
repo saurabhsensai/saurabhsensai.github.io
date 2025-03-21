@@ -16,7 +16,7 @@ Education
 
 Work experience
 ======
-* Jan 2024 - Present: Data Scientist, Core AI
+* Jan 2025 - Present: Data Scientist, Core AI
   * Managing and analyzing medical data from the Alzheimer's Disease Neuroimaging Initiative (ADNI), including tabular records and 3D MRI scans.
   * Preprocessing and refining data to uncover patterns for classifying different stages of Alzheimer's disease.
   * Developing deep learning models and pipelines for efficient processing and integration of 3D imaging and tabular data. 
@@ -31,10 +31,10 @@ for detailed anatomical study and quantitative analysis
   * Developed a novel hybrid loss function for kidney blood vessel segmentation. Combined Log Cosh Dice loss and Binary
     Cross Entropy. Achieved state-of-the-art performance with Dice coefficient of 0.9308.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Oct 2023− Jan 2024: Computer Vision Intern, Cognautica
+  * Interning at Cognautica a startup based in San Francisco, I actively contribute to the development of an AI grader system
+for U.S. schools, with a primary focus on refining OCR accuracy for paper PDFs.
+  * Integrated LaTeX OCR pipeline to convert images of equations to latex code readable to LLM.
   
 Skills
 ======
