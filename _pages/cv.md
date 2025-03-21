@@ -38,31 +38,27 @@ for U.S. schools, with a primary focus on refining OCR accuracy for paper PDFs.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Laungauges
+  * Python 
+  * C++ 
+  * Java
+* Deep Learning
+  * Computer Vision
+  * Large Laungauge Models
+  * Statistical Analysis
+* Cloud 
+  * AWS
+  * GCP
+* Framework
+  * Flask
+  * StreamLit 
+  * FastAPI
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* IUCEE EWB(Engineers Without Borders), RIT
+  * Oct 2022 - July 2023 (President)
+  * Planned sustainability-based events for Engineering students.
+  * Maintained energy and enthusiasm in fast-paced environment.
+  * Learned new skills and applied to daily tasks to improve efficiency and productivity.
