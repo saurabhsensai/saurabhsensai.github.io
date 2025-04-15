@@ -1,54 +1,42 @@
 ---
-title: "Decoding Brainwave Frequencies: EEG Signal Classification and the Cognitive Effects of Delta, Theta, Alpha, Beta, and Gamma Bands"
-excerpt: "Saurabh P. Nale<br/><img src='/images/saurabh/eeg/main.png'>"
+title: "ECG Classification for Atrial Fibrillation, Normal Sinus Rhythm, and Congestive Heart Failure"
+excerpt: "Saurabh P. Nale, Pawan Kamble<br/><img src='/images/saurabh/ecg/main.png'>"
 collection: portfolio
 ---
 
-Electroencephalography (EEG) signal classification is a crucial area in neuroscience and brain-computer interface (BCI) research, as it enables the identification of cognitive states and mental activities. This study focuses on classifying EEG signals collected from the Mental Arithmetic Tasks Dataset, available on PhysioNet (https://physionet.org/content/eegmat/1.0.0/). The dataset consists of EEG signals recorded while subjects performed mental arithmetic tasks, making it suitable for exploring cognitive state (Rest vs Task) classification.
+This research explores the use of deep learning for electrocardiogram (ECG) classification, focusing on distinguishing between Atrial Fibrillation (AF), Normal Sinus Rhythm (NSR), and Congestive Heart Failure (CHF). The study proposes an AlexNet-based convolutional neural network (CNN) for accurate ECG signal classification. The model achieves an impressive 99.21% accuracy, outperforming traditional approaches. The paper details the preprocessing techniques, feature extraction, and ECG signal transformation into 2D images, which enhance model performance. The dataset is derived from the MIT-BIH Arrhythmia Database, ensuring clinical relevance. 
 
-Analysis of EEG Bands and Their Significance:
 
-- **Delta Band (0.5 - 4 Hz):**
-  - Associated with deep sleep and unconscious brain activity.
-  - Higher delta activity may indicate drowsiness or reduced cognitive engagement.
+Key Contributions
 
-- **Theta Band (4 - 8 Hz):**
-  - Linked to memory processing, learning, and relaxed wakefulness.
-  - Elevated theta activity is often observed during deep focus and meditation.
+-Proposed a Deep Learning Model: Designed a CNN based on AlexNet architecture optimized for ECG signal classification.
+    
+-Data Preprocessing & Signal Transformation: Applied Fast Fourier Transform (FFT), Butterworth filtering, and wavelet transforms to convert 1D ECG signals into 2D images for deep learning analysis.
+    
+-Comparison of Architectures: Evaluated Custom CNN, VGG16, and AlexNet, with AlexNet achieving the highest accuracy (99.21%).
+    
+-Feature Engineering & Augmentation: Implemented stain augmentation, noise filtering, and signal denoising to improve classification robustness.
+    High Performance Metrics: Achieved precision, recall, and F1-score above 99%, demonstrating the model's clinical applicability.
 
-- **Alpha Band (8 - 13 Hz):**
-  - Related to relaxation and reduced cognitive load.
-  - A decrease in alpha activity can indicate heightened mental effort or stress.
 
-- **Beta Band (13 - 30 Hz):**
-  - Associated with active thinking, problem-solving, and focus.
-  - Increased beta activity is linked to higher cognitive workload and concentration.
-
-- **Gamma Band (30 - 100 Hz):**
-  - Involved in complex information processing and higher-order cognitive functions.
-  - Often associated with states of heightened perception and consciousness.
-
-Two deep learning models, **EEGNet** and **TSception**, were implemented and evaluated to determine their effectiveness in EEG signal classification.
-
-### **EEGNet Performance:**
-- **Test Accuracy:** 0.7976
-- **Precision:** 0.7995
-- **Recall:** 0.7976
-- **F1-score:** 0.7975
-
-### **TSception Performance:**
-- **Test Accuracy:** 0.8333
-- **Precision:** 0.8638
-- **Recall:** 0.8333
-- **F1-score:** 0.8305
-
+The study confirms that deep learning can significantly improve ECG classification for early detection of cardiac conditions. Future work includes expanding the dataset, integrating multi-class classification for additional arrhythmias, and developing real-time ECG monitoring systems using edge AI.
 
 <figure>
-  <img src="/images/saurabh/eeg/1.png" alt="samples" width="600">
-  <figcaption style="text-align: center;">Figure 1: Different Frequency bands.</figcaption>
+  <img src="/images/saurabh/ecg/af.png" alt="samples" width="600">
+  <figcaption style="text-align: center;">Figure 1: Atrial Fibrillation (AF).</figcaption>
 </figure>
 
 <figure>
-    <img src="/images/saurabh/eeg/2.png" alt="architecture" width="600">
-    <figcaption style="text-align: center;">Figure 2: Power Spectral Density</figcaption>
+    <img src="/images/saurabh/ecg/normal.png" alt="architecture" width="600">
+    <figcaption style="text-align: center;">Figure 2: Normal Sinus Rhythm (NSR)</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/images/saurabh/ecg/chf.png" alt="architecture" width="600">
+    <figcaption style="text-align: center;">Figure 3: Congestive Heart Failure (CHF)</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/images/saurabh/ecg/results.png" alt="architecture" width="600">
+    <figcaption style="text-align: center;">Figure 4: Results</figcaption>
   </figure>

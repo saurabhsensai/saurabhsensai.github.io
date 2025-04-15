@@ -1,42 +1,45 @@
 ---
-title: "ECG Classification for Atrial Fibrillation, Normal Sinus Rhythm, and Congestive Heart Failure"
-excerpt: "Saurabh P. Nale, Pawan Kamble<br/><img src='/images/saurabh/ecg/main.png'>"
+title: "Custom Object Detection with YOLOv7: Dataset Curation, Training, and Real-Time Deployment"
+excerpt: "Saurabh P. Nale<br/><img src='/images/saurabh/yolo/main.png'>"
 collection: portfolio
 ---
 
-This research explores the use of deep learning for electrocardiogram (ECG) classification, focusing on distinguishing between Atrial Fibrillation (AF), Normal Sinus Rhythm (NSR), and Congestive Heart Failure (CHF). The study proposes an AlexNet-based convolutional neural network (CNN) for accurate ECG signal classification. The model achieves an impressive 99.21% accuracy, outperforming traditional approaches. The paper details the preprocessing techniques, feature extraction, and ECG signal transformation into 2D images, which enhance model performance. The dataset is derived from the MIT-BIH Arrhythmia Database, ensuring clinical relevance. 
+This project involves training a YOLOv7 (You Only Look Once version 7) model to detect custom objects. The process included curating a custom image dataset, performing data annotation, and fine-tuning the YOLOv7 model to achieve optimal detection accuracy.
 
+Key Features
 
-Key Contributions
+-Custom Dataset Curation: Collected and annotated a dataset tailored for the target objects using tools like LabelImg.
 
--Proposed a Deep Learning Model: Designed a CNN based on AlexNet architecture optimized for ECG signal classification.
-    
--Data Preprocessing & Signal Transformation: Applied Fast Fourier Transform (FFT), Butterworth filtering, and wavelet transforms to convert 1D ECG signals into 2D images for deep learning analysis.
-    
--Comparison of Architectures: Evaluated Custom CNN, VGG16, and AlexNet, with AlexNet achieving the highest accuracy (99.21%).
-    
--Feature Engineering & Augmentation: Implemented stain augmentation, noise filtering, and signal denoising to improve classification robustness.
-    High Performance Metrics: Achieved precision, recall, and F1-score above 99%, demonstrating the model's clinical applicability.
+-YOLOv7 Model Training: Fine-tuned YOLOv7 on the curated dataset using PyTorch and GPU acceleration for efficient training.
 
+-Augmentation & Preprocessing: Applied image augmentation techniques (flipping, rotation, color jittering) to improve model generalization.
 
-The study confirms that deep learning can significantly improve ECG classification for early detection of cardiac conditions. Future work includes expanding the dataset, integrating multi-class classification for additional arrhythmias, and developing real-time ECG monitoring systems using edge AI.
+-Model Optimization: Tuned hyperparameters like learning rate, batch size, and anchor boxes to enhance performance.
+
+-Real-Time Inference: Deployed the trained model for real-time object detection using OpenCV and a custom pipeline.
+
+Tools & Technologies Used: \ 
+YOLOv7, PyTorch, CUDA, OpenCV
+LabelImg for annotation
+Google Colab / Local GPU for training
+
 
 <figure>
-  <img src="/images/saurabh/ecg/af.png" alt="samples" width="600">
-  <figcaption style="text-align: center;">Figure 1: Atrial Fibrillation (AF).</figcaption>
+  <img src="/images/saurabh/yolo/1.jpg" alt="samples" width="600">
+  <figcaption style="text-align: center;">Figure 1: Sample Testing 1</figcaption>
 </figure>
 
 <figure>
-    <img src="/images/saurabh/ecg/normal.png" alt="architecture" width="600">
-    <figcaption style="text-align: center;">Figure 2: Normal Sinus Rhythm (NSR)</figcaption>
+    <img src="/images/saurabh/yolo/2.jpg" alt="architecture" width="600">
+    <figcaption style="text-align: center;">Figure 2: Sample Testing 2</figcaption>
   </figure>
 
   <figure>
-    <img src="/images/saurabh/ecg/chf.png" alt="architecture" width="600">
-    <figcaption style="text-align: center;">Figure 3: Congestive Heart Failure (CHF)</figcaption>
+    <img src="/images/saurabh/yolo/results.png" alt="architecture" width="600">
+    <figcaption style="text-align: center;">Figure 3: Results</figcaption>
   </figure>
 
   <figure>
-    <img src="/images/saurabh/ecg/results.png" alt="architecture" width="600">
-    <figcaption style="text-align: center;">Figure 4: Results</figcaption>
+    <img src="/images/saurabh/yolo/F1_curve.png" alt="architecture" width="600">
+    <figcaption style="text-align: center;">Figure 4: F1 Curve</figcaption>
   </figure>
