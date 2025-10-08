@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
+[Download resume](https://drive.google.com/file/d/1YhlmKttkLZxuuw5p5QGRMqRalYAwdqi3/view?usp=sharing) 
 
 Education
 ======
@@ -16,10 +17,20 @@ Education
 
 Work experience
 ======
-* Jan 2025 - Present: Data Scientist, Core AI
-  * Managing and analyzing medical data from the Alzheimer's Disease Neuroimaging Initiative (ADNI), including tabular records and 3D MRI scans.
-  * Preprocessing and refining data to uncover patterns for classifying different stages of Alzheimer's disease.
-  * Developing deep learning models and pipelines for efficient processing and integration of 3D imaging and tabular data. 
+
+* July 2025 - Present: Junior Research Fellow, JISIASR
+  * Working on EEG-based machine learning models to develop neuro-biomarkers that can differentiate between Virtual Autism
+and Actual Autism.
+  * Collaborating with the Institute of Neurosciences, Kolkata for clinical data collection and validation.
+  * The project is funded by the Anusandhan National Research Foundation (ANRF), Government of India. 
+  * Supervisor: Dr. Kasturi Barik (Ph. D. IIT Kharagpur)
+
+* Jan 2025 - June 2025: Data Scientist, Core AI
+  * In my previous role as a Data Scientist, I worked with 3D MRI images of Alzheimer’s patients, along with longitudinal
+    data acquired from the Alzheimer’s Disease Neuroimaging Initiative (ADNI).
+  * Analyzed longitudinal data to identify patterns and track disease progression, helping detect patient variations early for
+    timely intervention.
+  * Developed models that integrated MRI and textual data to diagnose patients based on plasma-based biomarkers 
   * Supervisor: Dr. Sidharth Pancholi
 
 * Jan 2024-July 2024: Research Assistant 
