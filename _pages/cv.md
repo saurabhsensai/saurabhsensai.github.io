@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-[Download resume](https://drive.google.com/file/d/1YhlmKttkLZxuuw5p5QGRMqRalYAwdqi3/view?usp=sharing) 
+[Download resume](https://drive.google.com/file/d/1-Xc7dzDWjRYxSy438HtMGjpqG_7y_Hpb/view?usp=sharing) 
 
 Education
 ======
@@ -18,7 +18,7 @@ Education
 Work experience
 ======
 
-* July 2025 - Present: Junior Research Fellow, JISIASR
+* July 2025 - Present: AI Research Engineer (JRF), JISIASR
   * Working on EEG-based machine learning models to develop neuro-biomarkers that can differentiate between Virtual Autism
 and Actual Autism.
   * Collaborating with the Institute of Neurosciences, Kolkata for clinical data collection and validation.
